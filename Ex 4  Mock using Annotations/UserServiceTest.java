@@ -14,7 +14,7 @@ public class UserServiceTest {
 
     @InjectMocks
     private UserService userservice;
-  
+    
     @Before
     public void setUp(){
         MockitoAnnotations.openMocks(this);
